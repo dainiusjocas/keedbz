@@ -50,8 +50,7 @@ GetFisherScores <- function(dataset, pos, neg) {
   return(fisher.scores)
 }
 
-GetFisherRanking <- function(dataset, normal, tumor)
-{
+GetFisherFeatureRanking <- function(dataset, normal, tumor) {
   # Gets ranking of features according to fisher score feature ranking method.
   #
   # Args:
